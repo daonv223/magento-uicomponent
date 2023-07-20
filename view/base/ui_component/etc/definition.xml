@@ -3,6 +3,7 @@
     <ui_component_simple class="DaoNguyen\UiComponent\Component\Simple">
         <argument name="data" xsi:type="array">
             <item name="template" xsi:type="string">templates/our-template</item>
+            <item name="message" xsi:type="string">Message from definition.xml</item>
         </argument>
     </ui_component_simple>
 </components>

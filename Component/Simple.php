@@ -13,4 +13,9 @@ class Simple extends AbstractComponent
     {
         return self::NAME;
     }
+
+    public function getEvenMoreData()
+    {
+        return 'Even More Data!';
+    }
 }
