@@ -4,6 +4,9 @@
         <argument name="data" xsi:type="array">
             <item name="template" xsi:type="string">templates/our-template</item>
             <item name="message" xsi:type="string">Message from definition.xml</item>
+            <item name="config" xsi:type="array">
+                <item name="component" xsi:type="string">DaoNguyen_UiComponent/js/ui-component-simple-component</item>
+            </item>
         </argument>
     </ui_component_simple>
 </components>

@@ -4,4 +4,8 @@
     <p>{{getComponentName()}}</p>
     <p>{{getEvenMoreData()}}</p>
     <p>{{message}}</p>
+
+    <div data-bind="scope: '{{getName()}}.{{getName()}}'">
+        <!-- ko template: getTemplate() --><!-- /ko -->
+    </div>
 </div>
